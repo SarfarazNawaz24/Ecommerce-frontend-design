@@ -7,11 +7,14 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import NewsLetter from './NewsLetter'
 
 
 
 const Footer = () => {
   return (
+    <>
+    <NewsLetter/>
     <div className='w-[1440px] h-[324px]'>
         <div className='ml-[129px] mt-[40px] text-[16px] flex mr-[187px]'>
             <div className='w-[276px] h-[157px]'>
@@ -70,11 +73,14 @@ const Footer = () => {
             </ul>
         </div>
 
-
-        <div className='bg-[#EFF2F4] h-[68px] flex items-center pl-[129px] mt-[59px]'>
+        <div className='bg-[#EFF2F4] h-[68px] flex items-center justify-between pl-[129px] mt-[59px]'>
              © 2025 Ecommerce.
+             <div className='mr-[136px]'>
+                English 
+             </div>
         </div>
     </div>
+    </>
   )
 }
 

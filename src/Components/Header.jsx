@@ -5,22 +5,25 @@ import { BsPersonFill } from "react-icons/bs";
 import { MdMessage } from "react-icons/md";
 import { FaHeart } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
+import Navbar from './Navbar'
+import { Link } from 'react-router-dom';
 
 
 
 const Header = () => {
   return (
+    <>
     <div className='w-[1440px] h-[86px] flex justify-between items-center '>
         {/* LOGO */}
             <img className='pl-[130px]' src={logo} alt="" />
         {/* SEARCG BAR */}
         <div className='border-[#0D6EFD] border-2 rounded-lg flex justify-between items-center'>
             <input className='w-[421px] h-[40px] p-2 focus:outline-none' type="text"  placeholder='Search'/>
-            <a className='w-[145px] h-[40px] pt-[7px] pl-4 border-l-1 border-[#0067FF]' href="">All category </a>
+            <Link className='w-[145px] h-[40px] pt-[7px] pl-4 border-l-1 border-[#0067FF]'>All category</Link>
             <IoChevronDownSharp className='text-gray-500'/>
-            <button className='w-[100px] h-[40px] bg-[#0067FF] text-white rounded'>Search</button>
+            <button className='w-[100px] h-[40px] bg-[#0067FF] text-white rounded cursor-pointer'>Search</button>
         </div>
-        {/* HEADER */}
+        {/* Navs */}
         <div className='flex space-x-8 pr-[50px] text-[#8B96A5] h-[41px] pr-[132px] text-sm'> 
            <div> 
                 <BsPersonFill className='w-7 h-7 ml-2'/>
@@ -40,6 +43,8 @@ const Header = () => {
            </div>
         </div>
     </div>
+            <Navbar/>
+    </>
   )
 }
 

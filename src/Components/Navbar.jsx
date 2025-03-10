@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
     <hr className='text-[#8B96A5]'/>
 
-      <div className='w-[1440px] h-[56px] flex justify-between items-center '>
+      <div className='w-[1440px] h-[56px] flex justify-between items-center'>
         <ul className='flex w-[620px] h-[24px] ml-[130px] gap-x-4 '>
                 <li className='flex gap-2 items-center'><HiMiniBars3 />All Category</li>
                 <li>Hot offers</li>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
     </div>
 
-    <hr className='text-[#8B96A5]'/>
+    <hr className='text-[#8B96A5] mb-[20px]'/>
     </>
   )
 }

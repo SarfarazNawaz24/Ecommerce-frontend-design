@@ -1,17 +1,14 @@
 import React from 'react'
 import Header from './Components/Header'
-import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-import NewsLetter from './Components/NewsLetter'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './Components/Home'
+
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Navbar/>
-      <NewsLetter/>
-      <Footer/>
-    </div>
+    <>
+    </>
   )
 }
 
