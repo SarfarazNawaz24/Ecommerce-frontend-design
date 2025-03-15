@@ -267,7 +267,7 @@ const Home = () => {
       </div>
 
                 {/*INQUIRY SECTION */}
-      <div className='w-[1180px] h-[420px] mx-[130px] my-[30px] flex justify-between border-2 border-[#E0E0E0] rounded-lg bg-linear-to-r from-blue-500 to-cyan-500 '>
+      <div className='w-[1180px] h-[420px] mx-[130px] my-[30px] flex justify-between rounded-lg bg-linear-to-r from-blue-500 to-cyan-500 '>
         <div className='flex flex-col w-[440px] mt-[30px] ml-[40px]'>
           <p className='font-semibold text-[32px] text-white leading-9'>An easy way to send requests to all suppliers</p>
           <p className='text-white mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
