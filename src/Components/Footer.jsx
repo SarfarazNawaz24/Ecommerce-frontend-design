@@ -8,6 +8,9 @@ import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import NewsLetter from './NewsLetter'
+import usa from '../assets/flags/usa.png'
+import { FaAngleUp } from "react-icons/fa";
+
 
 
 
@@ -75,8 +78,8 @@ const Footer = () => {
 
         <div className='bg-[#EFF2F4] h-[68px] flex items-center justify-between pl-[129px] mt-[59px]'>
              © 2025 Ecommerce.
-             <div className='mr-[136px]'>
-                English 
+             <div className='mr-[136px] flex'>
+                <img className='w-[29px] h-[25px]' src={usa} alt="" />English<FaAngleUp className='mt-1 ml-1'/> 
              </div>
         </div>
     </div>
